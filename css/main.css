@@ -1,0 +1,97 @@
+.container{
+    max-width: 1450px;
+}
+
+.bg-danger-100{
+    background-color: #ff0100;
+}
+
+.bg-dark-100{
+    background-color: #131313;
+}
+
+.bg-orange{
+    background-image: linear-gradient(90deg,#F28B03 15%,#FF7100 88%);   
+}
+
+.bg-red{
+    background-color: #ff0100;
+}
+
+.border-red{
+    border: 2px solid #ff0100;
+}
+
+.shadows{
+    border-radius: 10px;
+    box-shadow: 0 10px 30px 0 #000;
+}
+
+.z-index-1{
+    z-index: 1;
+}
+
+.section-4 h5{
+    width: 508px;
+}
+
+.section-4 .bg-secondary-50{
+    background-color: #1b1b1b;
+}
+
+.section-4 .bg-primary-100{
+    background-color: #00fff8;
+}
+
+.section-5 .image{
+    position: relative;
+    display: inline-block;
+}
+
+.section-5 .image .tutor{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
+
+.section-5 .image h3{
+    text-shadow: -3px -3px 3px #000000, 3px -3px 3px #000000, -3px 3px 3px #000000, 3px 3px 3px #000000;
+}
+.section-5 .image p{
+    text-shadow: -3px -3px 3px #000000, 3px -3px 3px #000000, -3px 3px 3px #000000, 3px 3px 3px #000000;
+}
+
+.bg-red-100{
+    background-color: #ff0100 !important;
+}
+
+@media only screen and (max-width: 1199px){
+    
+    .container{
+        max-width: 1000px;
+    }
+
+    .section-2 .display-4{
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    
+    .container{
+        max-width: 800px;
+    }
+
+}
+
+@media only screen and (max-width: 991px){
+
+    .container{
+        max-width: 580px;
+    }
+
+    .section-7 .pr-0{
+        margin-top: -160px !important  ;
+    }
+
+}
